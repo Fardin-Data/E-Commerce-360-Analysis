@@ -22,12 +22,12 @@ Feel free to explore each sheet for a deeper understanding of business analytics
 ## Power BI Report Previews
 
 <div style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 10px;">
-  <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/1ee38292-04e0-4c74-a422-b35ffe97aa0a" alt="Screenshot 1" style="width: 500px;">
-  <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/356b7dcc-d27f-421f-acd8-3bc01f24129b" alt="Screenshot 2" style="width: 500px;">
-  <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/f5cc6df4-8203-4384-bf7d-fee3416f7b85" alt="Screenshot 3" style="width: 500px;">
-  <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/204fc0b5-c1ba-4bc2-a21c-3fd6953908e0" alt="Screenshot 4" style="width: 500px;">
-  <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/2abf8927-8306-4618-b94a-790d2327ea1a" alt="Screenshot 5" style="width: 500px;">
-  <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/64babf18-42b9-4002-b747-dfbf7551fd07" alt="Screenshot 6" style="width: 500px;">
+  <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/1ee38292-04e0-4c74-a422-b35ffe97aa0a" alt="Screenshot 1" style="width: 400px;">
+  <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/356b7dcc-d27f-421f-acd8-3bc01f24129b" alt="Screenshot 2" style="width: 400px;">
+  <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/f5cc6df4-8203-4384-bf7d-fee3416f7b85" alt="Screenshot 3" style="width: 400px;">
+  <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/204fc0b5-c1ba-4bc2-a21c-3fd6953908e0" alt="Screenshot 4" style="width: 400px;">
+  <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/2abf8927-8306-4618-b94a-790d2327ea1a" alt="Screenshot 5" style="width: 400px;">
+  <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/64babf18-42b9-4002-b747-dfbf7551fd07" alt="Screenshot 6" style="width: 400px;">
 </div>
 
 
