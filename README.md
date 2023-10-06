@@ -47,10 +47,17 @@ Feel free to explore each sheet for a deeper understanding of business analytics
 - To align with customer preferences and boost orders, I recommend activating “Pay Later.” This flexible payment option allows customers to place orders without immediate payment, enhancing their shopping experience and encouraging more orders.
 
 ## Files Information
-- **Analysis Queries:** This folder contains all the SQL queries written for data analysis purposes.
-- **Overview Report:** The Power BI report includes five key sheets, each offering distinct insights into our business operations.
+`Data`
+
 - **E-Commerce Database Script:** Within this file, you will find all the queries used to create and populate the database.
-- **Tables for Report Generation:** This folder contains all the tables, which are the result of SQL queries, used in the Power BI report generation.
+
+`SQL`
+
+- **Analysis Queries:** This file contains all the SQL queries written for data analysis purposes.
+
+`Results`
+
+- **Overview Report:** The Power BI report includes five key sheets, each offering distinct insights into our business operations.
 
 ## Tech Stack
 - **MySQL:** Utilized for data analysis and querying.
