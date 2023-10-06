@@ -1,9 +1,0 @@
-paymenttype,allowed
-"Debit Card",Yes
-POD,Yes
-PayPal,Yes
-"Credit Card",Yes
-Wallet,Yes
-"Net banking",Yes
-PayLater,No
-FoodCard,No
