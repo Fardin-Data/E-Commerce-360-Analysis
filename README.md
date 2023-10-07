@@ -19,8 +19,6 @@ The Power BI report comprises five key sheets, each providing unique insights in
 
 Feel free to explore each sheet for a deeper understanding of business analytics.
 
-## Power BI Report Previews
-
 <div style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 10px;">
   <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/1ee38292-04e0-4c74-a422-b35ffe97aa0a" alt="Screenshot 1" style="width: 400px;">
   <img src="https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/356b7dcc-d27f-421f-acd8-3bc01f24129b" alt="Screenshot 2" style="width: 400px;">
@@ -59,14 +57,14 @@ Feel free to explore each sheet for a deeper understanding of business analytics
 
 - **Overview Report:** The Power BI report includes five key sheets, each offering distinct insights into our business operations.
 
+## Database Schema
+![Database Schema](https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/642e14db-cf49-4a8c-bb46-672b1fd4f2f1)
+
 ## Tech Stack
 - **MySQL:** Utilized for data analysis and querying.
 - **Power BI:** Leveraged to create comprehensive reports and visualizations.
 - **DAX (Data Analysis Expressions):** Applied for creating additional necessary measures and calculations.
 - **Power Query:** Employed for minor data adjustments and transformations.
-
-## Database Schema
-![Database Schema](https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/642e14db-cf49-4a8c-bb46-672b1fd4f2f1)
 
 ## Project Presentation
 - [View Project Presentation](https://www.canva.com/design/DAFwHRGUVJ0/TnfhrpYY_YDDIKExgaF4XA/view?utm_content=DAFwHRGUVJ0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
