@@ -177,6 +177,7 @@ Leveraging my profound business understanding and investing time in strategic th
 
 ## License
 This project is licensed under the MIT License, allowing you to use, modify, and distribute the code and visuals while maintaining the original license terms.
+
 ---
 
 For questions or feedback, please contact: fardinkhan.data@gmail.com
