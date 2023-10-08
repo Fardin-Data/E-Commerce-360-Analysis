@@ -1,13 +1,81 @@
 # E-Commerce 360 Analysis
 ![Screenshot 2023-10-04 203357](https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/f53aa2ea-0dd9-4c3d-8f7b-f5ae18e279d4)
 
+## Table of Contents
+- [Project Overview](#Project-Overview)
+- [Problem Statement](#Problem-Statement)
+- [Process](#Process)
+- [Report Previews](#Report-Previews)
+- [Insights](#Insights)
+- [Recommendations](#Recommendations)
+- [Limitation and Challenges](#Limitation-and-Challenges)
+- [Learnings](#Learnings)
+- [Files Information](Files-Information)
+- [Database Schema](Database-Schema)
+- [Tech Stack](#Tech-Stack)
+- [Project Presentation](Project-Presentation)
+
 ## Project Overview
 The goal is to provide a 360-degree view of operations, uncovering critical information that can drive strategic decisions. By the end of this journey, the aim is not only to understand the business better but also to provide recommendations that can drive growth and success.
 
 ## Problem Statement
 A two-year-old e-commerce company has experienced notable growth and is now seeking a data-driven approach to understand its current business landscape. The company aims to chart a strategic path forward, leveraging data insights to sustain and enhance its growth trajectory. Recommendations are sought to guide future actions, ensuring continued expansion and sustained success in the e-commerce industry.
 
-## Power BI Report Previews
+## Process
+`Database Creation`
+
+- Using the provided script, a database was established with a defined structure, incorporating tables and their respective columns, each with associated values.
+<pre><code>
+  CREATE TABLE Customers(
+    CustomerID bigint,
+    FirstName varchar(30),
+    LastName varchar(30),
+    Date_of_Birth datetime,
+    City varchar(30),
+    State varchar(30),
+    Country varchar(30),
+    PostalCode bigint,
+    Phone bigint,
+    Email varchar(30),
+    DateEntered datetime
+  );
+</code></pre>
+
+`Exploration`
+
+- After the database setup, the data within it was explored to become familiar with the tables and columns. This step helped understand the data and its structure.
+
+`Analysis`
+
+With an understanding of the database, the data was analyzed. This analysis involved defining the project's end goals and objectives, determining the insights or information to extract from the data, and planning how to achieve those objectives.
+<pre><code>
+  #Total inactive customers:
+  SELECT COUNT(customerid) as Inactive_Customers 
+  FROM (
+      SELECT customerid, MAX(orderdate) as Last_order 
+      FROM orders 
+      GROUP BY customerid
+      HAVING MAX(orderdate) < DATE_SUB((SELECT MAX(orderdate) FROM orders), INTERVAL 6 MONTH)
+  ) as subquery;
+</code></pre>
+
+`Export to CSV`
+
+The results of SQL queries (Data Query Language or DQL) were exported into CSV files. This step allowed working with the data in Power BI.
+
+`Power Query Editor` 
+
+Upon importing the CSV files into Power BI, the Power Query Editor was used to perform some data transformations. Specifically, the first row was specified as the header to ensure Power Query recognized the correct data types.
+
+`DAX Measures`
+
+Minor measures were created using Data Analysis Expressions (DAX). DAX is a formula language used in Power BI to create custom calculations, aggregations, and metrics.
+
+`Report Creation`
+
+Using the transformed data from Power Query Editor, a multifaceted Power BI report was created. This report is designed to provide a 360-degree view of the business based on the data from the database
+
+## Report Previews
 ### Structure:
 The Power BI report comprises five key sheets, each providing unique insights into our business operations:
 1. **Introduction Page:** This page serves as a navigation hub with bookmark links to other sheets within the report.
@@ -36,6 +104,7 @@ Feel free to explore each sheet for a deeper understanding of business analytics
 - Upon analyzing the data, I identified a consistent trend: New customer additions peak at the beginning of the year but gradually decline as the year progresses.
 - A substantial portion of our customers prefers online payments, with roughly 50% opting for credit card transactions.
 
+
 ## Recommendations
 - Invest in improving product offerings within the top-selling categories of "Beauty and Hygiene" and "Kitchen, Garden & Pets" to cater to customer preferences effectively.
 - Continuously gather customer feedback and reviews to understand their evolving needs and preferences. Tailor promotions and product offerings accordingly to maintain interest.
@@ -43,6 +112,39 @@ Feel free to explore each sheet for a deeper understanding of business analytics
 - Launch targeted marketing campaigns to attract and engage younger customers, introducing them to our product range and services.
 - Develop and launch targeted promotional strategies during periods of declining customer additions. Offer special promotions, discounts, and bundled deals to entice both new and existing customers. Timely and compelling offers can rekindle interest in our products.
 - To align with customer preferences and boost orders, I recommend activating “Pay Later.” This flexible payment option allows customers to place orders without immediate payment, enhancing their shopping experience and encouraging more orders.
+
+
+## Limitation and Challenges
+`Limited Data`
+
+ The challenge of working with a relatively new business with a limited dataset made it difficult to identify trends accurately.
+
+
+`Effective Presentation` 
+
+Presenting the findings in the most suitable and effective manner required careful consideration.
+
+
+`Strategic Recommendations`
+
+Despite a strong understanding of the business, crafting actionable suggestions for business growth demanded thoughtful analysis.
+
+
+## Learnings
+`Data Organization`
+
+Despite the limited dataset, the data's organization and informativeness became evident during this analysis.
+
+
+`Data Visualization`
+
+Overcoming the challenge of presenting outcomes was achieved through applying knowledge of data visualization techniques and learning new methods.
+
+
+`Strategic Insights`
+
+Leveraging my profound business understanding and investing time in strategic thinking led to valuable insights, connecting important dots within the data.
+
 
 ## Files Information
 `Data`
@@ -56,9 +158,11 @@ Feel free to explore each sheet for a deeper understanding of business analytics
 `Results`
 
 - **Overview Report:** The Power BI report includes five key sheets, each offering distinct insights into our business operations.
+  
 
 ## Database Schema
 ![Database Schema](https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/642e14db-cf49-4a8c-bb46-672b1fd4f2f1)
+
 
 ## Tech Stack
 - **MySQL:** Utilized for data analysis and querying.
@@ -66,11 +170,14 @@ Feel free to explore each sheet for a deeper understanding of business analytics
 - **DAX (Data Analysis Expressions):** Applied for creating additional necessary measures and calculations.
 - **Power Query:** Employed for minor data adjustments and transformations.
 
+
 ## Project Presentation
 - [View Project Presentation](https://www.canva.com/design/DAFwHRGUVJ0/TnfhrpYY_YDDIKExgaF4XA/view?utm_content=DAFwHRGUVJ0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+  
 
 ## License
 This project is licensed under the MIT License, allowing you to use, modify, and distribute the code and visuals while maintaining the original license terms.
+---
 
 For questions or feedback, please contact: fardinkhan.data@gmail.com
 
