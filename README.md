@@ -152,10 +152,10 @@ Leveraging my profound business understanding and investing time in strategic th
 
 
 ## Tech Stack
-- **MySQL:** Utilized for data analysis and querying.
-- **Power BI:** Leveraged to create comprehensive reports and visualizations.
-- **DAX (Data Analysis Expressions):** Applied for creating additional necessary measures and calculations.
-- **Power Query:** Employed for minor data adjustments and transformations.
+- `MySQL` Utilized for data analysis and querying.
+- `Power BI` Leveraged to create comprehensive reports and visualizations.
+- `DAX (Data Analysis Expressions)` Applied for creating additional necessary measures and calculations.
+- `Power Query` Employed for minor data adjustments and transformations.
 
 
 ## Project Presentation
