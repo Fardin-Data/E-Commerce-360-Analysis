@@ -1,19 +1,6 @@
 # E-Commerce 360 Analysis
 ![Screenshot 2023-10-04 203357](https://github.com/Fardin-Data/E-Commerce-360-Analysis/assets/137788371/f53aa2ea-0dd9-4c3d-8f7b-f5ae18e279d4)
 
-## Table of Contents
-- [Project Overview](#Project-Overview)
-- [Problem Statement](#Problem-Statement)
-- [Process](#Process)
-- [Report Previews](#Report-Previews)
-- [Insights](#Insights)
-- [Recommendations](#Recommendations)
-- [Limitation and Challenges](#Limitation-and-Challenges)
-- [Learnings](#Learnings)
-- [Files Information](Files-Information)
-- [Database Schema](Database-Schema)
-- [Tech Stack](#Tech-Stack)
-- [Project Presentation](Project-Presentation)
 
 ## Project Overview
 The goal is to provide a 360-degree view of operations, uncovering critical information that can drive strategic decisions. By the end of this journey, the aim is not only to understand the business better but also to provide recommendations that can drive growth and success.
